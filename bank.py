@@ -62,12 +62,22 @@ class Bank:
     def initializeGuards(self):
 
         positions = self.getPositionsOf(self.guard_char)
+        guards = []
 
-        return
+        for position in positions:
+            guards.append(Guard(position[0], position[1])
+
+        return guards
 
     def initialzeCounterboys(self):
 
-        return
+        positions = self.getPositionsOf(self.counterboy_char)
+        counterboys = []
+
+        for position in positions:
+            counterboys.append(Counterboy(position[0], position[1])
+
+        return counterboys
 
     def initializeLocks(self):
 

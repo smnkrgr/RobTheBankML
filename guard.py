@@ -1,6 +1,10 @@
 
+
 class Guard:
 
-    def __init__(self):
+    def __init__(self, y, x):
+
+        self.pos_y = y
+        self.pos_x = x 
 
         return
